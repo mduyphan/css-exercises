@@ -8,7 +8,7 @@ body {
 }
 
 img {
-  width: 600px;
+    width: 600px;
 }
 
 button {
@@ -24,3 +24,50 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f2f2;
+    margin-bottom: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-grow: 0;
+    height: 85%;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+
